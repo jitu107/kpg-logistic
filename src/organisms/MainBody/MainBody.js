@@ -1,12 +1,15 @@
-import React from 'react';
-import style from './MainBody.module.scss'
+import React from "react";
+import CarouselSection from "../../molecules/CarouselSection/CarouselSection";
+import FindUsInMap from "../../molecules/FindUsInMap/FindUsInMap";
+import "./MainBody.scss";
 
-const MainBody = props => {
-return (
-<div className={style['o-main-body']} data-test="">
-    MainBody
-</div>
-);
+const MainBody = (props) => {
+  return (
+    <div className="o-main-body" data-test="">
+      <CarouselSection />
+      <FindUsInMap/>
+    </div>
+  );
 };
 
 export default MainBody;

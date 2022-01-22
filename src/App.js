@@ -7,6 +7,7 @@ import AboutUs from "./molecules/AboutUs/AboutUs";
 import ContactUs from "./molecules/ContactUs/ContactUs";
 import Services from "./molecules/Services/Services";
 
+
 import "./App.scss";
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
       </Routes>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
 export default App;

@@ -1,0 +1,19 @@
+.a-useful-links {
+    color: cornsilk;
+  & .navList {
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    & li {
+      list-style: none;
+      cursor: pointer;
+      padding-top: 1rem;
+      & a {
+        color: cornsilk;
+        text-decoration: none;
+      }
+    }
+  }
+}
