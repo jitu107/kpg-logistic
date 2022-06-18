@@ -1,3 +1,12 @@
-.m-services{
-
+.m-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  .servicesCards{
+      padding: 1rem 0rem;
+      :hover{
+          color: red;
+      }
+  }
 }

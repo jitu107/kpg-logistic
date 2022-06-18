@@ -54,7 +54,7 @@ const CarouselSection = (props) => {
             alt="First slide"
           />
           <div className="carousel-caption text-size">
-            <h4 class="h3-responsive">
+            <h4 className="h3-responsive">
               Large Clientele across the country, which includes Govt. and
               Public Sectors, Private Sectors, MNCs and Traders, Distributors,
               Dealers & many others
