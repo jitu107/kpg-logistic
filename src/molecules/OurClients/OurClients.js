@@ -5,6 +5,7 @@ import  './OurClients.scss'
 const OurClients = props => {
 return (
 <div className='m-our-clients' data-test="">
+    <h4>Our Major Clients</h4>
     <ClientCard/>
 </div>
 );

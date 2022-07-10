@@ -6,11 +6,12 @@ import FMCL_logo from "../src/assets/clients/FMCLogo_tagline.png";
 import ChemLogo from "../src/assets/clients/Chem-1.png";
 import sikkoLogo from "../src/assets/clients/sikko.png";
 import hilFovLogo from "../src/assets/clients/hilGov.gif";
+import fullTruckLoad from '../src/assets/Services/fullTruckLoad.png'
 
 export const servicesData = [
   {
     title: "FTL (Full Truck Load)",
-    imgUrl: "",
+    imgUrl: fullTruckLoad,
     description:
       "FTL shipments get to the destination sooner, as the truck is making no other pickups or drop-offs along the way.",
   },

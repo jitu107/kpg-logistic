@@ -1,3 +1,22 @@
-.m-our-clients{
-
+.m-our-clients {
+    background-color: #e9ecef;
+    padding: 1rem 2rem;
+  h4 {
+    color: blueviolet;
+    text-decoration: underline;
+    font-style: italic;
+  }
+}
+.a-client-card {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+  & .card-body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

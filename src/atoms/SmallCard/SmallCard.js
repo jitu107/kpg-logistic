@@ -14,11 +14,11 @@ const SmallCard = (props) => {
           <p className="card-text">
             {description}
           </p>
-          {linkToOpen && (
+          
             <a href="#" className="btn btn-primary">
-              Go somewhere
+              Connect Us 
             </a>
-          )}
+          
         </div>
       </div>
     </div>

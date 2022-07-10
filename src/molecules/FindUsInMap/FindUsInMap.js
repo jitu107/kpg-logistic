@@ -6,7 +6,7 @@ const FindUsInMap = (props) => {
     <div className="m-find-us-in-map " data-test="">
       <div className="map-margin text-size">
         <div className="map-responsive">
-          <h4 className="text-capatalized font-weight-bold text-center">
+          <h4 className="text-capatalized ">
             Find Us in Maps
           </h4>
           <iframe
@@ -15,6 +15,7 @@ const FindUsInMap = (props) => {
             height="400"
             frameBorder="0"
             allowFullScreen=""
+            className="iframe"
           ></iframe>
         </div>
       </div>

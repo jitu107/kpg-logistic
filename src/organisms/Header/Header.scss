@@ -1,18 +1,18 @@
 .o-header {
   display: flex;
   width: 100%;
-  height: 5rem;
+  height: 4rem;
   background-color: #193843d6;
   color: white;
   justify-content: space-between;
   align-items: center;
-  & .logo{
-      padding-left: 1rem;
+  & .logo {
+    padding-left: 1rem;
   }
   & .navList {
-    padding-right: 1rem;
+    // padding-right: 1rem;
     display: flex;
-    width: 35%;
+    width: 50%;
     justify-content: space-around;
     & li {
       list-style: none;
@@ -23,10 +23,16 @@
       }
     }
   }
+}
   @media screen and (max-width: 856px) {
-    .navList {
+    .o-header {
       flex-direction: column;
+      height: 6rem;
+      justify-content: space-around;
+      align-items: flex-start;
+      color:red;
+      & .navList {
+        width: 100%;
+      }
     }
-  }
-  
 }
